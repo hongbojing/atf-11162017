@@ -42,13 +42,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#" data-gaCategory="nav Clicked" data-gaAction="Javascript nav Menu link" data-gaLabel="about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#" data-gaCategory="nav Clicked" data-gaAction="Javascript nav Menu link" data-gaLabel="service">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#" data-gaCategory="nav Clicked" data-gaAction="Javascript nav Menu link" data-gaLabel="contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -101,10 +101,21 @@
       <!-- /.container -->
     </footer>
 
+    <!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-xxx-1', 'auto');
+      // go to https://analytics.google.com/analytics/web/ to find you id
+      ga('send', 'pageview');
+    </script>
     <!-- Bootstrap core JavaScript -->
     <script src="app.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
   </body>
 
